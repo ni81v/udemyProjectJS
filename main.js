@@ -4,5 +4,5 @@
 
 // let answer = confirm("Are you here?");
 // console.log(answer);
-let answer = prompt("Are you 18?", "Yes / No");
-console.log(answer);
+// let answer = prompt("Are you 18?", "Yes / No");
+// console.log(answer);
