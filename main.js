@@ -1,8 +1,20 @@
 'use strict';
-// let arr = ['plum.png', 'orangen.jpg', 'apple.bmp'];
-// console.log(arr[0]);
 
-// let answer = confirm("Are you here?");
-// console.log(answer);
-// let answer = prompt("Are you 18?", "Yes / No");
-// console.log(answer);
+
+var money = prompt("What is your budget for a month?");
+var time = prompt("Enter a date in a format YYYY-MM-DD");
+var appData = {
+    budget: money,
+    timeData: time,
+    expenses: {},
+    optionalExpenses: {},
+    income: [],
+    savings: false
+};
+
+var bidingCost = prompt("Enter biding cost");
+var howMuch = prompt("How much?");
+var daysInMonth = 30;
+
+appData.expenses.bidingCost = howMuch;
+alert(money / daysInMonth);
